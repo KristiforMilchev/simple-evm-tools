@@ -1,0 +1,7 @@
+
+[ ERC20TestnetToken ] Nothing new to deploy based on previous execution stored in ./ignition/deployments/chain-1337
+
+Deployed Addresses
+
+LockModule#Lock - 0x5258DFe49B1f4c9B41E80032CE9691c1A2B83Bed
+ERC20TestnetToken#ERC20TestnetToken - 0x59838FBE08B31Dd3094c447078A10d059358D683
