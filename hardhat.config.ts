@@ -38,13 +38,13 @@ const config: HardhatUserConfig = {
     development: {
       url: devRpcUrl,
       accounts: Array.isArray(privateKey) ? privateKey : [privateKey],
-      gas: 6721975,
+      gas: 6721975000000000,
       gasPrice: 20000000000,
     },
     local: {
       url: "HTTP://127.0.0.1:7545",
       accounts: localAccounts,
-      gas: 6721975,
+      gas: 60721975,
       gasPrice: 20000000000,
     },
   },
