@@ -15,7 +15,8 @@ async function main(MY_TOKEN_ADDRESS: string, amountETHDesired: string) {
     return;
   }
 
-  const pancakeswapRouterAddress = "0xD52367e37D020c866675648892040D3740934658";
+  if (process.env.PKSwapRouter == undefined) return;
+  const pancakeswapRouterAddress = process.env.PKSwapRouter;
 
   // ERC20 Token Contract setup
   const token = new ethers.Contract(
